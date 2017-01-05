@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{51A00135-815B-4634-B824-AD3E8848F5FD}</ProjectGuid>
+    <ProjectGuid>{C1773782-924C-4118-8FBC-8A7DF1E32824}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My170105Redis_C_Client</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -71,15 +71,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.05]Redis_C++_Client\[17.01.05]Redis_C++_Client\cpp_redis\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -92,6 +100,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cpp_redis.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -105,6 +115,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cpp_redis.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -122,6 +134,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cpp_redis.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,6 +153,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cpp_redis.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
