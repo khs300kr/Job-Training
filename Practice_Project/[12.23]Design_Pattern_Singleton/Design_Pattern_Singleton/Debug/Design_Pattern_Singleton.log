@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\unknown15\desktop\design_pattern_singleton\design_pattern_singleton\main.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\users\unknown15\desktop\design_pattern_singleton\design_pattern_singleton\main.cpp(62): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  SingletonClass.cpp
+  코드를 생성하고 있습니다...
+  Design_Pattern_Singleton.vcxproj -> C:\Users\unknown15\Desktop\Design_Pattern_Singleton\Debug\Design_Pattern_Singleton.exe
+  Design_Pattern_Singleton.vcxproj -> C:\Users\unknown15\Desktop\Design_Pattern_Singleton\Debug\Design_Pattern_Singleton.pdb (Full PDB)

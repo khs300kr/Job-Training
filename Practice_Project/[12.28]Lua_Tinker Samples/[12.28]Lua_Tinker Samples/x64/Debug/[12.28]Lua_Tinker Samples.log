@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\unknown15\desktop\practice_project\[12.28]lua_tinker samples\[12.28]lua_tinker samples\소스.cpp(72): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  [12.28]Lua_Tinker Samples.vcxproj -> C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Tinker Samples\x64\Debug\[12.28]Lua_Tinker Samples.exe
+  [12.28]Lua_Tinker Samples.vcxproj -> C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Tinker Samples\x64\Debug\[12.28]Lua_Tinker Samples.pdb (Full PDB)

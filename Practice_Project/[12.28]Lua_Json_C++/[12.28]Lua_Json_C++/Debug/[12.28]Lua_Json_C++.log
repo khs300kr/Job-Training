@@ -1,0 +1,39 @@
+﻿  소스.cpp
+  lua_tinker.cpp
+  코드를 생성하고 있습니다...
+lua_tinker.obj : error LNK2019: _lua_gettop 외부 기호(참조 위치: "struct lua_tinker::table __cdecl lua_tinker::pop<struct lua_tinker::table>(struct lua_State *)" (??$pop@Utable@lua_tinker@@@lua_tinker@@YA?AUtable@0@PAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_settop 외부 기호(참조 위치: "void __cdecl lua_tinker::pop<void>(struct lua_State *)" (??$pop@X@lua_tinker@@YAXPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushvalue 외부 기호(참조 위치: "void __cdecl lua_tinker::push<struct lua_tinker::table>(struct lua_State *,struct lua_tinker::table)" (??$push@Utable@lua_tinker@@@lua_tinker@@YAXPAUlua_State@@Utable@0@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_remove 외부 기호(참조 위치: "public: __thiscall lua_tinker::table_obj::table_obj(struct lua_State *,int)" (??0table_obj@lua_tinker@@QAE@PAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_isnumber 외부 기호(참조 위치: "__int64 __cdecl lua_tinker::read<__int64>(struct lua_State *,int)" (??$read@_J@lua_tinker@@YA_JPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_isuserdata 외부 기호(참조 위치: "int __cdecl lua_tinker::meta_get(struct lua_State *)" (?meta_get@lua_tinker@@YAHPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_type 외부 기호(참조 위치: "bool __cdecl lua_tinker::read<bool>(struct lua_State *,int)" (??$read@_N@lua_tinker@@YA_NPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_typename 외부 기호(참조 위치: "void __cdecl lua_tinker::enum_stack(struct lua_State *)" (?enum_stack@lua_tinker@@YAXPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_tonumber 외부 기호(참조 위치: "char __cdecl lua_tinker::read<char>(struct lua_State *,int)" (??$read@D@lua_tinker@@YADPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_toboolean 외부 기호(참조 위치: "bool __cdecl lua_tinker::read<bool>(struct lua_State *,int)" (??$read@_N@lua_tinker@@YA_NPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_tolstring 외부 기호(참조 위치: "char * __cdecl lua_tinker::read<char *>(struct lua_State *,int)" (??$read@PAD@lua_tinker@@YAPADPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_touserdata 외부 기호(참조 위치: "__int64 __cdecl lua_tinker::read<__int64>(struct lua_State *,int)" (??$read@_J@lua_tinker@@YA_JPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_topointer 외부 기호(참조 위치: "public: __thiscall lua_tinker::table_obj::table_obj(struct lua_State *,int)" (??0table_obj@lua_tinker@@QAE@PAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushnil 외부 기호(참조 위치: "void __cdecl lua_tinker::push<struct lua_tinker::lua_value *>(struct lua_State *,struct lua_tinker::lua_value *)" (??$push@PAUlua_value@lua_tinker@@@lua_tinker@@YAXPAUlua_State@@PAUlua_value@0@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushnumber 외부 기호(참조 위치: "void __cdecl lua_tinker::push<char>(struct lua_State *,char)" (??$push@D@lua_tinker@@YAXPAUlua_State@@D@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushstring 외부 기호(참조 위치: "void __cdecl lua_tinker::push<char *>(struct lua_State *,char *)" (??$push@PAD@lua_tinker@@YAXPAUlua_State@@PAD@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushfstring 외부 기호(참조 위치: "int __cdecl lua_tinker::meta_get(struct lua_State *)" (?meta_get@lua_tinker@@YAHPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushcclosure 외부 기호(참조 위치: "void __cdecl lua_tinker::dobuffer(struct lua_State *,char const *,unsigned int)" (?dobuffer@lua_tinker@@YAXPAUlua_State@@PBDI@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pushboolean 외부 기호(참조 위치: "void __cdecl lua_tinker::push<bool>(struct lua_State *,bool)" (??$push@_N@lua_tinker@@YAXPAUlua_State@@_N@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_gettable 외부 기호(참조 위치: "void __cdecl lua_tinker::push<__int64>(struct lua_State *,__int64)" (??$push@_J@lua_tinker@@YAXPAUlua_State@@_J@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_rawget 외부 기호(참조 위치: "void __cdecl invoke_parent(struct lua_State *)" (?invoke_parent@@YAXPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_createtable 외부 기호(참조 위치: "public: __thiscall lua_tinker::table::table(struct lua_State *)" (??0table@lua_tinker@@QAE@PAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_newuserdata 외부 기호(참조 위치: "void __cdecl lua_tinker::push<__int64>(struct lua_State *,__int64)" (??$push@_J@lua_tinker@@YAXPAUlua_State@@_J@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_getmetatable 외부 기호(참조 위치: "int __cdecl lua_tinker::meta_get(struct lua_State *)" (?meta_get@lua_tinker@@YAHPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_settable 외부 기호(참조 위치: "public: __thiscall lua_tinker::table::table(struct lua_State *,char const *)" (??0table@lua_tinker@@QAE@PAUlua_State@@PBD@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_rawset 외부 기호(참조 위치: "void __cdecl lua_tinker::init_s64(struct lua_State *)" (?init_s64@lua_tinker@@YAXPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_setmetatable 외부 기호(참조 위치: "void __cdecl lua_tinker::push<__int64>(struct lua_State *,__int64)" (??$push@_J@lua_tinker@@YAXPAUlua_State@@_J@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_call 외부 기호(참조 위치: "void __cdecl lua_tinker::print_error(struct lua_State *,char const *,...)" (?print_error@lua_tinker@@YAXPAUlua_State@@PBDZZ) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_pcall 외부 기호(참조 위치: "void __cdecl lua_tinker::dobuffer(struct lua_State *,char const *,unsigned int)" (?dobuffer@lua_tinker@@YAXPAUlua_State@@PBDI@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_error 외부 기호(참조 위치: "int __cdecl lua_tinker::meta_get(struct lua_State *)" (?meta_get@lua_tinker@@YAHPAUlua_State@@@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_getstack 외부 기호(참조 위치: "void __cdecl call_stack(struct lua_State *,int)" (?call_stack@@YAXPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _lua_getinfo 외부 기호(참조 위치: "void __cdecl call_stack(struct lua_State *,int)" (?call_stack@@YAXPAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _luaL_loadfile 외부 기호(참조 위치: "void __cdecl lua_tinker::dofile(struct lua_State *,char const *)" (?dofile@lua_tinker@@YAXPAUlua_State@@PBD@Z) 함수)에서 확인하지 못했습니다.
+lua_tinker.obj : error LNK2019: _luaL_loadbuffer 외부 기호(참조 위치: "void __cdecl lua_tinker::dobuffer(struct lua_State *,char const *,unsigned int)" (?dobuffer@lua_tinker@@YAXPAUlua_State@@PBDI@Z) 함수)에서 확인하지 못했습니다.
+C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib\lua5.1.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'X86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\Debug\[12.28]Lua_Json_C++.exe : fatal error LNK1120: 34개의 확인할 수 없는 외부 참조입니다.
