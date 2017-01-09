@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\unknown15\documents\github\job-training\practice_project\[17.01.05]redis_c++_client\[17.01.05]redis_c++_client\rapidjson\</FILEPATH>
+      <FILENAME>writer.h</FILENAME>
+      <LINE>527</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6313</DEFECTCODE>
+    <DESCRIPTION>잘못된 연산자:  값이 0인 플래그는 비트 AND를 사용하여 테스트할 수 없습니다.  값이 0인 플래그를 검사하려면 같음 테스트를 사용하십시오.</DESCRIPTION>
+    <FUNCTION>rapidjson::Writer&lt;rapidjson::GenericStringBuffer&lt;rapidjson::UTF8&lt;char&gt;,rapidjson::CrtAllocator&gt;,rapidjson::UTF8&lt;char&gt;,rapidjson::UTF8&lt;char&gt;,rapidjson::CrtAllocator,0&gt;::WriteDouble</FUNCTION>
+    <DECORATED>?WriteDouble@?$Writer@V?$GenericStringBuffer@U?$UTF8@D@rapidjson@@VCrtAllocator@2@@rapidjson@@U?$UTF8@D@2@U32@VCrtAllocator@2@$0A@@rapidjson@@IEAA_NN@Z</DECORATED>
+    <FUNCLINE>524</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

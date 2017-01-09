@@ -1,0 +1,7 @@
+﻿  SynchronousTCPserver.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.06]boost test\[17.01.06]boost test\synchronoustcpserver.cpp(47): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+LINK : fatal error LNK1104: 'libboost_system-vc140-mt-gd-1_63.lib' 파일을 열 수 없습니다.

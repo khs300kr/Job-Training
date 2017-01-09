@@ -1,0 +1,5 @@
+﻿  CircularBuf.cpp
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(24): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(25): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  [17.01.09]Making Buffer.vcxproj -> C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.09]Making Buffer\x64\Debug\[17.01.09]Making Buffer.exe
+  [17.01.09]Making Buffer.vcxproj -> C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.09]Making Buffer\x64\Debug\[17.01.09]Making Buffer.pdb (Full PDB)
