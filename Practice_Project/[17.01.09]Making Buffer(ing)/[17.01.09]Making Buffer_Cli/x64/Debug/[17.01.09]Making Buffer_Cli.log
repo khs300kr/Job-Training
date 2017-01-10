@@ -1,0 +1,47 @@
+﻿  main.cpp
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(5): error C2065: 'CCircularBuf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(5): error C2146: 구문 오류: ';'이(가) 'send_buf' 식별자 앞에 없습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(5): error C2065: 'send_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(6): error C2065: 'TempPacket': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(6): error C2146: 구문 오류: ';'이(가) 'send_packet' 식별자 앞에 없습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(6): error C2065: 'send_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(8): error C2065: 'send_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(8): error C2228: '.m_ID' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(8): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(8): error C2065: 'StringData': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(9): error C2065: 'send_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(9): error C2228: '.m_size' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(9): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(10): error C2065: 'send_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(10): error C2228: '.str_temp' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(10): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): error C2065: 'cout': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): error C2065: 'send_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): error C2228: '.WriteBuf' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): error C2065: 'send_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(12): error C2065: 'endl': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(14): error C2065: 'CCircularBuf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(14): error C2146: 구문 오류: ';'이(가) 'recv_buf' 식별자 앞에 없습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(14): error C2065: 'recv_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(15): error C2065: 'TempPacket': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(15): error C2146: 구문 오류: ';'이(가) 'recv_packet' 식별자 앞에 없습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(15): error C2065: 'recv_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(17): error C2065: 'recv_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(17): error C2065: 'send_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(20): error C2065: 'recv_buf': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(20): error C2228: '.ReadBuf' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(20): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(20): error C2065: 'recv_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(22): error C2065: 'cout': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(22): error C2065: 'recv_packet': 선언되지 않은 식별자입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(22): error C2228: '.str_temp' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(22): note: 'unknown-type' 형식입니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer_cli\main.cpp(22): error C2065: 'endl': 선언되지 않은 식별자입니다.
+  CircularBuf.cpp
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(24): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(25): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(49): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(65): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.09]making buffer\[17.01.09]making buffer\circularbuf.cpp(73): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
