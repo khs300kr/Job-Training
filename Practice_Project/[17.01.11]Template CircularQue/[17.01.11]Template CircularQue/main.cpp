@@ -91,7 +91,7 @@ void main()
 			send_Msg.Player_msg.y = 1;
 
 			pCirQue->Enqueue(&send_Msg);
-			cout << "Enqueue" << endl;
+			//cout << "Enqueue" << endl;
 		}
 	}
 

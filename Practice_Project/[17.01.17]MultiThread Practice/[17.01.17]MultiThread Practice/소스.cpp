@@ -71,6 +71,31 @@ int recvn(SOCKET S, char *buf, int len, int flags)
 	return (len - left);
 }
 
+DWORD WINAPI ProcessClient(LPVOID arg)
+{
+	SOCKET client_sock = (SOCKET)arg;
+	SOCKADDR_IN client_addr;
+	int addrlen;
+	char buf[BUFSIZE + 1];
+	// get remote addr
+	addrlen = sizeof(client_addr);
+	getpeername(client_sock, (SOCKADDR*)&client_addr, &addrlen);
+
+	int retval;
+	while (true)
+	{
+		// recv
+		retval = recvn(client_sock, buf, BUFSIZE, 0);
+		cout << "[len] 받은 데이터 : " << retval << endl;
+		if (retval == SOCKET_ERROR) { cout << "recvn()" << endl; break; }
+		else if (retval == 0) break; // client Quit
+
+
+	}
+	closesocket(client_sock);
+	cout << " [ Quit - IP : " << inet_ntoa(client_addr.sin_addr) << ", Port : " << ntohs(client_addr.sin_port) << " ] " << endl;
+}
+
 void main()
 {
 	WSADATA wsa;
@@ -95,42 +120,20 @@ void main()
 	// 통신 변수
 	SOCKET client_sock;
 	SOCKADDR_IN client_addr;
-	char buf[BUFSIZE + 1]{};
 	int addrlen{};
-	
-	int retval{};
+	HANDLE hThread;
+
 	while (true)	// accept loop
-	{ 
+	{
 		addrlen = sizeof(client_addr);
 		client_sock = accept(listen_sock, (SOCKADDR*)&client_addr, &addrlen);
 		if (client_sock == INVALID_SOCKET) { cout << "accept() Error" << endl; break; }
 		cout << " [ Accept - IP : " << inet_ntoa(client_addr.sin_addr) << ", Port : " << ntohs(client_addr.sin_port) << " ] " << endl;
 
-		while (true)	// communication loop
-		{h
-			// recv
-			retval = recvn(client_sock, buf, 16, 0);
-			cout << "[len] 받은 데이터 : " << retval << endl;
-			if (retval == SOCKET_ERROR) { cout << "recvn()" << endl; break; }
-			else if (retval == 0) break; // client Quit
-
-			// Data Process Logic
-			PCharInfo CharInfo;
-			PacketDecode(buf, CharInfo);
-			switch (CharInfo.m_iCharSelect)
-			{
-				case Rine:  cout << "[" << CharInfo.m_iPlayerNum << "] " << "Rine" << endl; break;
-				case Diva:  cout << "[" << CharInfo.m_iPlayerNum << "] " << "Diva" << endl; break;
-				case Genji: cout << "[" << CharInfo.m_iPlayerNum << "] " << "Genji" << endl; break;
-				case Hanzo: cout << "[" << CharInfo.m_iPlayerNum << "] " << "Hanzo" << endl; break;
-				case Para:  cout << "[" << CharInfo.m_iPlayerNum << "] " << "Para" << endl; break;
-				case Lucio: cout << "[" << CharInfo.m_iPlayerNum << "] " << "Lucio" << endl; break;
-				case Mersi: cout << "[" << CharInfo.m_iPlayerNum << "] " << "Mersi" << endl; break;
-			}
-		}
-
-		closesocket(client_sock);
-		cout << " [ Quit - IP : " << inet_ntoa(client_addr.sin_addr) << ", Port : " << ntohs(client_addr.sin_port) << " ] " << endl;
+		// 스레드 생성
+		hThread = CreateThread(NULL, 0, ProcessClient, (LPVOID)client_sock, 0, NULL);
+		if (hThread == NULL) { closesocket(client_sock); }
+		else { CloseHandle(hThread); }
 	}
 	closesocket(listen_sock);
 
