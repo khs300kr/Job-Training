@@ -32,6 +32,9 @@ lua_tinker.obj : error LNK2019: lua_getstack 외부 기호(참조 위치: "void 
 lua_tinker.obj : error LNK2019: lua_getinfo 외부 기호(참조 위치: "void __cdecl call_stack(struct lua_State *,int)" (?call_stack@@YAXPEAUlua_State@@H@Z) 함수)에서 확인하지 못했습니다.
 lua_tinker.obj : error LNK2019: luaL_loadfile 외부 기호(참조 위치: "void __cdecl lua_tinker::dofile(struct lua_State *,char const *)" (?dofile@lua_tinker@@YAXPEAUlua_State@@PEBD@Z) 함수)에서 확인하지 못했습니다.
 lua_tinker.obj : error LNK2019: luaL_loadbuffer 외부 기호(참조 위치: "void __cdecl lua_tinker::dobuffer(struct lua_State *,char const *,unsigned __int64)" (?dobuffer@lua_tinker@@YAXPEAUlua_State@@PEBD_K@Z) 함수)에서 확인하지 못했습니다.
-C:\Users\unknown15\Desktop\Practice_Project\[17.01.03]Redis\[17.01.03]Redis\lib\lua5.1.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
-C:\Users\unknown15\Desktop\Practice_Project\[17.01.03]Redis\[17.01.03]Redis\lib\lua51.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
-C:\Users\unknown15\Desktop\Practice_Project\[17.01.03]Redis\x64\Debug\[17.01.03]Redis.exe : fatal error LNK1120: 34개의 확인할 수 없는 외부 참조입니다.
+소스.obj : error LNK2019: lua_close 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: luaL_openlibs 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: luaL_newstate 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.03]Redis\[17.01.03]Redis\lib\lua5.1.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.03]Redis\[17.01.03]Redis\lib\lua51.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.03]Redis\x64\Debug\[17.01.03]Redis.exe : fatal error LNK1120: 37개의 확인할 수 없는 외부 참조입니다.

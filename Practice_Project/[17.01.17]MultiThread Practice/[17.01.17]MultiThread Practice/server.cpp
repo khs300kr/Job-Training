@@ -7,8 +7,8 @@
 
 #pragma comment (lib, "Ws2_32.lib")
 
-#define IP_ADDRESS "192.168.56.1"
-#define DEFAULT_PORT "3504"
+#define IP_ADDRESS "127.0.0.1"
+#define DEFAULT_PORT "8000"
 #define DEFAULT_BUFLEN 512
 
 struct client_type
@@ -117,7 +117,7 @@ int main()
 
 																					 //Assign an address to the server socket.
 	std::cout << "Binding socket..." << std::endl;
-	bind(server_socket, server->ai_addr, (int)server->ai_addrlen);
+	int retval = bind(server_socket, server->ai_addr, (int)server->ai_addrlen);
 
 	//Listen for incoming connections.
 	std::cout << "Listening..." << std::endl;

@@ -1,3 +1,7 @@
-﻿  소스.cpp
+﻿  server.cpp
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.17]multithread practice\[17.01.17]multithread practice\server.cpp(53): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.17]multithread practice\[17.01.17]multithread practice\server.cpp(70): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.17]multithread practice\[17.01.17]multithread practice\server.cpp(165): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\unknown15\documents\github\job-training\practice_project\[17.01.17]multithread practice\[17.01.17]multithread practice\server.cpp(173): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   [17.01.17]MultiThread Practice.vcxproj -> C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.17]MultiThread Practice\x64\Debug\[17.01.17]MultiThread Practice.exe
   [17.01.17]MultiThread Practice.vcxproj -> C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[17.01.17]MultiThread Practice\x64\Debug\[17.01.17]MultiThread Practice.pdb (Full PDB)

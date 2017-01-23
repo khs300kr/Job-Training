@@ -43,9 +43,9 @@ function print_r ( t )
 end
 
 
-recvTable = JSON:encode_pretty(CPassiveSkill)
+--recvTable = JSON:encode_pretty(CPassiveSkill)
 --client:set('usr:passive', recvTable)
-print(recvTable)
+--print(recvTable)
 
 --redisdata = client:get('usr:passive')
 --print(redisdata)
@@ -53,7 +53,7 @@ print(recvTable)
 --print_r(JSON:decode(redisdata))
 
 
---[[
+--
 
 local recvJson = JSON:decode(recvTable)
 print_r(recvJson)
@@ -74,5 +74,5 @@ end;
 function EncodePrint(jsonString)
 	print_r(JSON:decode(jsonString))
 end;
-]]
+
 

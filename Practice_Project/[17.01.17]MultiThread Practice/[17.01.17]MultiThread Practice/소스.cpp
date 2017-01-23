@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define SERVERPORT 9000
+#define SERVERPORT 8000
 #define BUFSIZE 128
 //
 // Packet
@@ -94,6 +94,8 @@ DWORD WINAPI ProcessClient(LPVOID arg)
 	}
 	closesocket(client_sock);
 	cout << " [ Quit - IP : " << inet_ntoa(client_addr.sin_addr) << ", Port : " << ntohs(client_addr.sin_port) << " ] " << endl;
+
+	return 0;
 }
 
 void main()
