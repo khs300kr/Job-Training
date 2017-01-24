@@ -85,7 +85,7 @@ void main()
 	lua_State* L = lua_open();
 
 	luaL_openlibs(L);
-	lua_tinker::dofile(L, "TPassive.lua");
+	lua_tinker::dofile(L, "../x64/Debug/TPassive.lua");
 
 	char* json = lua_tinker::call<char *>(L, "EncodeJson");
 

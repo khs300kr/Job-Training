@@ -120,18 +120,23 @@ void main()
 
 	string str_JSON = p->serialize();
 	cout << "------------------------C++클래스->JSON---------------------------------" << endl;
-	cout << str_JSON << endl;
+	cout << sizeof(str_JSON) << endl;
 	
 	
-	lua_tinker::dofile(L, "TPassive.lua");
+	lua_tinker::dofile(L, "../x64/Debug/TPassive.lua");
 
 	lua_tinker::table dataTable = lua_tinker::call<lua_tinker::table>(L,"EncodeTable", str_JSON.c_str());
 
 
 	// Table -> Json Logic
-	//string return_JSON = lua_tinker::call<char *>(L, "EncodeJson", dataTable);
-	//cout << "------------------------Table->JSON---------------------------------" << endl;
+	string return_JSON = lua_tinker::call<char *>(L, "EncodeJson", dataTable);
+	cout << "------------------------Table->JSON---------------------------------" << endl;
 	//cout << return_JSON << endl;
+
+	MyHandler handler;
+	Reader reader; 
+	StringStream ss(return_JSON.c_str());
+	reader.Parse(ss, handler);
 
 	delete p;
 	// 프로그램 종료

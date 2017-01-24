@@ -71,23 +71,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\unknown15\Desktop\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\unknown15\Documents\GitHub\Job-Training\Practice_Project\[12.28]Lua_Json_C++\[12.28]Lua_Json_C++\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

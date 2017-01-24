@@ -1,6 +1,6 @@
 local redis = require 'redis'
 local JSON = require'JSON'
-local client = redis.connect('127.0.0.1', 6379)
+local client = redis.connect('127.0.0.1', 9000)
 -- 하나라도 키값이 있을경우 - 테이블, 없으면 Array
 -- 패시브스킬 테이블
 CPassiveSkill = {aId =0 , bJob = "한글도되냐", cCoolTime=121212, dEffect = {1,2,3}}
